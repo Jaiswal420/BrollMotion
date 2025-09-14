@@ -7,7 +7,7 @@
     <!-- <meta http-equiv="refresh" url="/login.html"> -->
 
     <meta charset="utf-8" />
-    <title>BRollMotion12</title>
+    <title>BRollMotion</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta content="" name="keywords" />
     <meta content="" name="description" />
@@ -18,20 +18,12 @@
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Roboto:wght@500;700&display=swap"
-      rel="stylesheet"
-    />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Roboto:wght@500;700&display=swap"
+    rel="stylesheet" />
 
     <!-- Icon Font Stylesheet -->
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
-      rel="stylesheet"
-    />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
 
     <!-- Libraries Stylesheet -->
     <link href="lib/animate/animate.min.css" rel="stylesheet" />
@@ -45,45 +37,32 @@
     <link href="css/style.css" rel="stylesheet" />
   </head>
 
-  <body>
+  <body style="display: flex; flex-direction: column; min-height: 100vh;">
     <!-- Spinner Start -->
-    <div
-      id="spinner"
-      class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
-    >
-      <div
-        class="spinner-border text-primary"
-        role="status"
-        style="width: 3rem; height: 3rem"
-      ></div>
+  <div id="spinner"
+    class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+    <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem"></div>
     </div>
     <!-- Spinner End -->
 
     <!-- Topbar Start -->
-    <div class="container-fluid bg-dark text-white d-none d-lg-flex">
+    <div class="container-fluid text-white d-none d-lg-flex" style="background-color: black !important;">
       <div class="container py-9">
         <div class="d-flex align-items-center">
           <a href="index.html">
-            <h2 class="text-white fw-bold m-3">B Roll Motion</h2>
+          <h2 class="text-white fw-bold m-3"><img src="img/B_Roll_Logo.png" alt="B Roll Motion Logo"
+              style="height: 60px; margin-right: 10px;">B Roll Motion</h2>
           </a>
           <div class="ms-auto d-flex align-items-center">
-            <small class="ms-4"
-              ><i class="fa fa-map-marker-alt me-3"></i>By Lane-9, Rajgarh,
-              Guwahati, Assam</small
-            >
-            <small class="ms-4"
-              ><i class="fa fa-envelope me-3"></i>brollmotion@gmail.com</small
-            >
-            <small class="ms-4"
-              ><i class="fa fa-phone-alt me-3"></i>+91 7086291836</small
-            >
+          <small class="ms-4"><i class="fa fa-map-marker-alt me-3 location-color"></i>By Lane-9, Rajgarh,
+            Guwahati, Assam</small>
+          <small class="ms-4"><i class="fa fa-envelope me-3 gmail-color"></i>brollmotion@gmail.com</small>
+          <small class="ms-4"><i class="fa fa-phone-alt me-3 call-color"></i>+91 7086291836</small>
             <div class="ms-3 d-flex">
               <!-- <a class="btn btn-sm-square btn-light text-primary rounded-circle ms-2" href=""><i class="fab fa-facebook-f"></i></a> -->
-              <a
-                class="btn btn-sm-square btn-light text-primary rounded-circle ms-2"
-                href="https://www.instagram.com/b_roll_motion/?igsh=dzMwbThmNGd0ODIz&utm_source=qr"
-                ><i class="fab fa-instagram"></i></a
-              ><br />
+            <a class="btn btn-sm-square btn-light instagram-gradient rounded-circle ms-2"
+              href="https://www.instagram.com/b_roll_motion/?igsh=dzMwbThmNGd0ODIz&utm_source=qr"><i
+                class="fab fa-instagram"></i></a><br />
 
               <!-- <a class="btn btn-sm-square btn-light text-primary rounded-circle ms-2" href=""><i class="fab fa-twitter"></i></a> -->
               <!-- <a class="btn btn-sm-square btn-light text-primary rounded-circle ms-2" href=""><i
@@ -96,29 +75,23 @@
     <!-- Topbar End -->
 
     <!-- Navbar Start -->
-    <div class="container-fluid bg-white sticky-top">
+    <div class="container-fluid bg-dark sticky-top">
       <div class="container">
-        <nav class="navbar navbar-expand-lg bg-white navbar-light p-lg-0">
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark p-lg-0">
           <a href="index.html" class="navbar-brand d-lg-none">
-            <h1 class="fw-bold m-0">B Roll Motion</h1>
-          </a>
-          <button
-            type="button"
-            class="navbar-toggler me-0"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarCollapse"
-          >
+          <h1 class="fw-bold m-0"><img src="img/B_Roll_Logo.png" alt="B Roll Motion Logo"
+              style="height: 60px; margin-right: 10px;">B Roll Motion</h1>
+        </a>
+        <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav">
-              <a href="index.html" class="nav-item nav-link active">Home</a>
-              <a href="about.html" class="nav-item nav-link">About</a>
-              <a href="service.html" class="nav-item nav-link">Services</a>
-              <a href="project.html" class="nav-item nav-link">Projects</a>
-              <a href="microinfluencer.html" class="nav-item nav-link"
-                >MicroInfluencer</a
-              >
+              <a href="index.html" class="nav-item nav-link active bg-dark text-white">Home</a>
+              <a href="about.html" class="nav-item nav-link text-white">About</a>
+              <a href="service.html" class="nav-item nav-link text-white">Services</a>
+              <a href="project.html" class="nav-item nav-link text-white">Projects</a>
+            <a href="microinfluencer.html" class="nav-item nav-link text-white">MicroInfluencer</a>
               <!--                        <li class="nav-item active">-->
               <!--                            <a class="nav-link" th:href="@{/}" href="#">Home</a>-->
               <!--                        </li>-->
@@ -138,23 +111,16 @@
               <!--                            <span class="nav-link" th:text="${cartCount}">0</span>-->
               <!--                        </li>-->
               <div class="nav-item dropdown">
-                <a
-                  href="#"
-                  class="nav-link dropdown-toggle"
-                  data-bs-toggle="dropdown"
-                  >Pages</a
-                >
-                <div
-                  class="dropdown-menu bg-light rounded-0 rounded-bottom m-0"
-                >
-                  <a href="feature.html" class="dropdown-item">Blog</a>
+              <a href="#" class="nav-link dropdown-toggle text-white" data-bs-toggle="dropdown">Pages</a>
+              <div class="dropdown-menu bg-dark rounded-0 rounded-bottom m-0">
+                  <a href="feature.html" class="dropdown-item text-white bg-dark">Blog</a>
                   <!-- <a href="team.html" class="dropdown-item">Our Team</a> -->
                   <!-- <a href="testimonial.html" class="dropdown-item">Testimonial</a> -->
                   <!-- <a href="quote.html" class="dropdown-item">Quotation</a> -->
                   <!-- <a href="404.html" class="dropdown-item">404 Page</a> -->
                 </div>
               </div>
-              <a href="/contact.html" class="nav-item nav-link">Contact</a>
+              <a href="/contact.html" class="nav-item nav-link text-white">Contact</a>
               <!--   <a href="/login.html" class="nav-item nav-link">Login</a>-->
             </div>
             <div class="ms-auto d-none d-lg-block">
@@ -165,6 +131,8 @@
       </div>
     </div>
     <!-- Navbar End -->
+
+    <div style="flex-grow: 1;">
 
     <!-- Carousel Start -->
     <!-- <div class="container-fluid px-0 mb-5">
@@ -220,17 +188,11 @@
     <!-- Carousel End -->
 
     <div class="container-fluid px-0 mb-5">
-      <div
-        id="header-carousel"
-        class="carousel slide carousel-fade"
-        data-bs-ride="carousel"
-      >
+    <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-inner">
           <!-- Carousel Item 1 -->
           <div class="carousel-item active">
-            <div
-              class="carousel-caption d-flex align-items-center justify-content-start"
-            >
+          <div class="carousel-caption d-flex align-items-center justify-content-start">
               <div class="container text-white">
                 <div class="row justify-content-start">
                   <div class="col-lg-7">
@@ -239,18 +201,12 @@
                       partner for D2C brand growth.
                     </p>
                     <!--<h1 class="display-1 mb-4 animated fadeInUp">D2C Growth and Sustainability</h1>  -->
-                    <h1
-                      class="display-1 mb-5 animated fadeInUp"
-                      style="color: white"
-                    >
+                  <h1 class="display-1 mb-5 animated fadeInUp" style="color: white">
                       Empowering Brands with Strategic Content & Tech Solutions
                     </h1>
 
-                    <a
-                      href="https://youtu.be/ErXSC_cQT-4?si=8RHLcdyhUe1IivxW"
-                      class="btn btn-primary btn-lg rounded-pill py-3 px-5 animated fadeInUp delay-1s"
-                      >Explore More</a
-                    >
+                  <a href="https://youtu.be/ErXSC_cQT-4?si=8RHLcdyhUe1IivxW"
+                    class="btn btn-primary btn-lg rounded-pill py-3 px-5 animated fadeInUp delay-1s">Explore More</a>
                   </div>
                 </div>
               </div>
@@ -258,9 +214,7 @@
           </div>
           <!-- Carousel Item 2 -->
           <div class="carousel-item">
-            <div
-              class="carousel-caption d-flex align-items-center justify-content-end"
-            >
+          <div class="carousel-caption d-flex align-items-center justify-content-end">
               <div class="container text-white">
                 <div class="row justify-content-end">
                   <div class="col-lg-7">
@@ -269,18 +223,12 @@
                       and seamless digital experiences.
                     </p>
                     <!--  <h1 class="display-1 mb-5 animated fadeInUp">D2C brands with expert solutions</h1>  -->
-                    <h1
-                      class="display-1 mb-5 animated fadeInUp"
-                      style="color: white"
-                    >
+                  <h1 class="display-1 mb-5 animated fadeInUp" style="color: white">
                       Unlock Your Brand's Full Potential Today
                     </h1>
 
-                    <a
-                      href="https://youtu.be/ErXSC_cQT-4?si=8RHLcdyhUe1IivxW"
-                      class="btn btn-primary btn-lg rounded-pill py-3 px-5 animated fadeInUp delay-1s"
-                      >Explore More</a
-                    >
+                  <a href="https://youtu.be/ErXSC_cQT-4?si=8RHLcdyhUe1IivxW"
+                    class="btn btn-primary btn-lg rounded-pill py-3 px-5 animated fadeInUp delay-1s">Explore More</a>
                   </div>
                 </div>
               </div>
@@ -288,21 +236,11 @@
           </div>
         </div>
         <!-- Carousel Controls -->
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#header-carousel"
-          data-bs-slide="prev"
-        >
+      <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#header-carousel"
-          data-bs-slide="next"
-        >
+      <button class="carousel-control-next" type="button" data-bs-target="#header-carousel" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
@@ -316,6 +254,7 @@
         color: white;
         line-height: 1.6;
       }
+
       /* General styling for the carousel */
       #header-carousel {
         position: relative;
@@ -340,14 +279,16 @@
 
       .carousel-caption p {
         font-size: 1.2rem;
-        font-weight: 400; /* Changed to thinner font weight */
+      font-weight: 400;
+      /* Changed to thinner font weight */
         margin-bottom: 20px;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
       }
 
       .carousel-caption h1 {
         font-size: 4.5rem;
-        font-weight: 500; /* Changed to thinner font weight */
+      font-weight: 500;
+      /* Changed to thinner font weight */
         margin-bottom: 30px;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
       }
@@ -378,6 +319,7 @@
           opacity: 0;
           transform: translateY(30px);
         }
+
         100% {
           opacity: 1;
           transform: translateY(0);
@@ -421,38 +363,26 @@
               <p class="mb-3">
                 <b>Watch our journey of growing and empowering D2C brands.</b>
               </p>
-              <div
-                class="video-container mb-3"
-                style="
+            <div class="video-container mb-3" style="
                   position: relative;
                   padding-bottom: 56.25%;
                   height: 0;
                   overflow: hidden;
                   max-width: 100%;
                   background: #000;
-                "
-              >
-                <iframe
-                  width="560"
-                  height="315"
-                  src="https://www.youtube.com/embed/ErXSC_cQT-4?si=vyQxTr6J0zsK7inh"
-                  title="YouTube video player"
-                  frameborder="0"
-                  style="
+                ">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/ErXSC_cQT-4?si=vyQxTr6J0zsK7inh"
+                title="YouTube video player" frameborder="0" style="
                     position: absolute;
                     top: 0;
                     left: 0;
                     width: 100%;
                     height: 100%;
-                  "
-                  allowfullscreen
-                ></iframe>
+                  " allowfullscreen></iframe>
               </div>
               <p class="mb-0">
-                <b
-                  >Learn how we ensure strategic growth and success in today's
-                  competitive market.</b
-                >
+              <b>Learn how we ensure strategic growth and success in today's
+                competitive market.</b>
               </p>
             </div>
           </div>
@@ -464,28 +394,17 @@
     <!-- Project Start -->
     <div class="container-xxl pt-5">
       <div class="container">
-        <div
-          class="text-center text-md-start pb-5 pb-md-0 wow fadeInUp"
-          data-wow-delay="0.1s"
-          style="max-width: 500px"
-        >
+      <div class="text-center text-md-start pb-5 pb-md-0 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px">
           <p class="fs-5 fw-medium text-primary">Our Projects</p>
           <h1 class="display-5 mb-5">We've Done Lot's of Awesome Projects</h1>
         </div>
-        <div
-          class="owl-carousel project-carousel wow fadeInUp"
-          data-wow-delay="0.1s"
-        >
+      <div class="owl-carousel project-carousel wow fadeInUp" data-wow-delay="0.1s">
           <div class="project-item mb-5">
             <div class="position-relative">
               <img class="img-fluid" src="img/TUMMUM/img3.png" alt="" />
               <div class="project-overlay">
-                <a
-                  class="btn btn-lg-square btn-light rounded-circle m-1"
-                  href="img/TUMMUM/img3.png"
-                  data-lightbox="project"
-                  ><i class="fa fa-eye"></i
-                ></a>
+              <a class="btn btn-lg-square btn-light rounded-circle m-1" href="img/TUMMUM/img3.png"
+                data-lightbox="project"><i class="fa fa-eye"></i></a>
                 <!-- <a class="btn btn-lg-square btn-light rounded-circle m-1" href=""><i
                                     class="fa fa-link"></i></a> -->
               </div>
@@ -499,12 +418,8 @@
             <div class="position-relative">
               <img class="img-fluid" src="img/TUMMUM/img2.png" alt="" />
               <div class="project-overlay">
-                <a
-                  class="btn btn-lg-square btn-light rounded-circle m-1"
-                  href="img/TUMMUM/img2.png"
-                  data-lightbox="project"
-                  ><i class="fa fa-eye"></i
-                ></a>
+              <a class="btn btn-lg-square btn-light rounded-circle m-1" href="img/TUMMUM/img2.png"
+                data-lightbox="project"><i class="fa fa-eye"></i></a>
                 <!-- <a class="btn btn-lg-square btn-light rounded-circle m-1" href=""><i
                                     class="fa fa-link"></i></a> -->
               </div>
@@ -518,12 +433,8 @@
             <div class="position-relative">
               <img class="img-fluid" src="img/TUMMUM/img1.png" alt="" />
               <div class="project-overlay">
-                <a
-                  class="btn btn-lg-square btn-light rounded-circle m-1"
-                  href="img/TUMMUM/img1.png"
-                  data-lightbox="project"
-                  ><i class="fa fa-eye"></i
-                ></a>
+              <a class="btn btn-lg-square btn-light rounded-circle m-1" href="img/TUMMUM/img1.png"
+                data-lightbox="project"><i class="fa fa-eye"></i></a>
                 <!-- <a class="btn btn-lg-square btn-light rounded-circle m-1" href=""><i
                                     class="fa fa-link"></i></a> -->
               </div>
@@ -537,12 +448,8 @@
             <div class="position-relative">
               <img class="img-fluid" src="img/TUMMUM/img4.png" alt="" />
               <div class="project-overlay">
-                <a
-                  class="btn btn-lg-square btn-light rounded-circle m-1"
-                  href="img/TUMMUM/img4.png"
-                  data-lightbox="project"
-                  ><i class="fa fa-eye"></i
-                ></a>
+              <a class="btn btn-lg-square btn-light rounded-circle m-1" href="img/TUMMUM/img4.png"
+                data-lightbox="project"><i class="fa fa-eye"></i></a>
                 <!-- <a class="btn btn-lg-square btn-light rounded-circle m-1" href=""><i
                                     class="fa fa-link"></i></a> -->
               </div>
@@ -556,12 +463,8 @@
             <div class="position-relative">
               <img class="img-fluid" src="img/TUMMUM/img6.png" alt="" />
               <div class="project-overlay">
-                <a
-                  class="btn btn-lg-square btn-light rounded-circle m-1"
-                  href="img/TUMMUM/img6.png"
-                  data-lightbox="project"
-                  ><i class="fa fa-eye"></i
-                ></a>
+              <a class="btn btn-lg-square btn-light rounded-circle m-1" href="img/TUMMUM/img6.png"
+                data-lightbox="project"><i class="fa fa-eye"></i></a>
                 <!-- <a class="btn btn-lg-square btn-light rounded-circle m-1" href=""><i
                                     class="fa fa-link"></i></a> -->
               </div>
@@ -598,11 +501,8 @@
                 with us and unlock the full potential of your D2C brand today.
               </p>
 
-              <a
-                class="btn btn-primary rounded-pill py-3 px-5"
-                href="https://youtu.be/ErXSC_cQT-4?si=8RHLcdyhUe1IivxW"
-                >Explore More</a
-              >
+            <a class="btn btn-primary rounded-pill py-3 px-5"
+              href="https://youtu.be/ErXSC_cQT-4?si=8RHLcdyhUe1IivxW">Explore More</a>
             </div>
           </div>
         </div>
@@ -611,35 +511,19 @@
     <!-- About End -->
 
     <!-- Video Modal Start -->
-    <div
-      class="modal modal-video fade"
-      id="videoModal"
-      tabindex="-1"
-      aria-labelledby="exampleModalLabel"
-      aria-hidden="true"
-    >
+  <div class="modal modal-video fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content rounded-0">
           <div class="modal-header">
             <h3 class="modal-title" id="exampleModalLabel">Youtube Video</h3>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            ></button>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
             <!-- 16:9 aspect ratio -->
             <div class="ratio ratio-16x9">
-              <iframe
-                class="embed-responsive-item"
-                src=""
-                id="video"
-                allowfullscreen
-                allowscriptaccess="always"
-                allow="autoplay"
-              ></iframe>
+            <iframe class="embed-responsive-item" src="" id="video" allowfullscreen allowscriptaccess="always"
+              allow="autoplay"></iframe>
             </div>
           </div>
         </div>
@@ -650,11 +534,7 @@
     <!-- Service Start -->
     <div class="container-xxl py-5">
       <div class="container">
-        <div
-          class="text-center mx-auto wow fadeInUp"
-          data-wow-delay="0.1s"
-          style="max-width: 500px"
-        >
+      <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px">
           <p class="fs-5 fw-medium text-primary">Our Services</p>
           <h1 class="display-5 mb-5">D2C Brands Services We Offer</h1>
         </div>
@@ -799,14 +679,9 @@
             </p>
             <!-- <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et
                         eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo</p> -->
-            <a
-              class="d-inline-flex align-items-center rounded overflow-hidden border border-primary"
-              href="tel:+91 7086291836"
-            >
-              <span
-                class="btn-lg-square bg-primary"
-                style="width: 55px; height: 55px"
-              >
+          <a class="d-inline-flex align-items-center rounded overflow-hidden border border-primary"
+            href="tel:+91 7086291836">
+            <span class="btn-lg-square bg-primary" style="width: 55px; height: 55px">
                 <i class="fa fa-phone-alt text-white"></i>
               </span>
               <span class="fs-5 fw-medium mx-4">+91 7086291836</span>
@@ -969,44 +844,34 @@
     <!-- Testimonial End -->
 
     <!-- Footer Start -->
-    <div
-      class="container-fluid bg-dark footer mt-5 py-5 wow fadeIn"
-      data-wow-delay="0.1s"
-    >
-      <div class="container py-5">
+  <div class="container-fluid bg-dark footer mt-5 py-1 wow fadeIn" data-wow-delay="0.1s" style="margin-top: auto;">
+      <div class="container py-1">
         <div class="row g-5">
           <div class="col-lg-4 col-md-4">
             <h4 class="text-white mb-4">Our Office</h4>
             <p class="mb-2">
-              <i class="fa fa-map-marker-alt me-3"></i>ByLane-9, Rajgarh,
+            <i class="fa fa-map-marker-alt me-3 location-color"></i>ByLane-9, Rajgarh,
               Guwahati, Assam
             </p>
             <p class="mb-2">
-              <i class="fa fa-phone-alt me-3"></i
-              ><a href="tel:+91 7086291836">+91 7086291836</a>
+            <i class="fa fa-phone-alt me-3 call-color"></i><a href="tel:+91 7086291836">+91 7086291836</a>
             </p>
             <p class="mb-2">
-              <i class="fa fa-envelope me-3"></i
-              ><a href="mailto:brollmotion@gmail.com">brollmotion@gmail.com</a>
+            <i class="fa fa-envelope me-3 gmail-color"></i><a href="mailto:brollmotion@gmail.com">brollmotion@gmail.com</a>
             </p>
             <div class="d-flex pt-3">
               <!-- <a class="btn btn-square btn-light rounded-circle me-2" href=""><i
                                 class="fab fa-twitter"></i></a> -->
               <!-- <a class="btn btn-square btn-light rounded-circle me-2" href=""><i
                                 class="fab fa-facebook-f"></i></a> -->
-              <a
-                class="btn btn-square btn-light rounded-circle me-2"
-                href="https://youtu.be/ErXSC_cQT-4?si=8RHLcdyhUe1IivxW"
-                ><i class="fab fa-youtube"></i
-              ></a>
+            <a class="btn btn-square btn-light youtube-color rounded-circle me-2"
+              href="https://youtu.be/ErXSC_cQT-4?si=8RHLcdyhUe1IivxW"><i class="fab fa-youtube"></i></a>
               <!-- <a class="btn btn-square btn-light rounded-circle me-2" href=""><i
                                 class="fab fa-linkedin-in"></i></a> -->
 
-              <a
-                class="btn btn-square btn-light rounded-circle me-2"
-                href="https://www.instagram.com/b_roll_motion/?igsh=dzMwbThmNGd0ODIz&utm_source=qr"
-                ><i class="fab fa-instagram"></i
-              ></a>
+            <a class="btn btn-square btn-light instagram-gradient rounded-circle me-2"
+              href="https://www.instagram.com/b_roll_motion/?igsh=dzMwbThmNGd0ODIz&utm_source=qr"><i
+                class="fab fa-instagram"></i></a>
             </div>
           </div>
           <div class="col-lg-4 col-md-4">
@@ -1100,16 +965,12 @@
         var x = document.getElementsByTagName('script')[0];
         x.parentNode.insertBefore(s, x);
     </script> -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css"
-      rel="stylesheet"
-    />
+    <link href="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css" rel="stylesheet" />
     <script type="module">
-      import { createChat } from "https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js";
+      import { createChat } from 'https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js';
 
       createChat({
-        webhookUrl:
-          "https://d2c123.app.n8n.cloud/webhook/7e6400b1-8f53-418f-b9c1-cda8b9fa903f/chat",
+        webhookUrl: 'http://localhost:5678/webhook/1a91ce7d-61c9-43e5-a406-1afb49d9e0ac/chat'
       });
     </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
@@ -1123,4 +984,5 @@
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
   </body>
+
 </html>

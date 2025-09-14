@@ -1432,6 +1432,26 @@ pre code {
     margin-left: 91.6666666667%;
   }
 }
+
+/* Gmail Color */
+.gmail-color {
+    color: #EA4335;
+}
+
+/* Location Color */
+.location-color {
+    color: #4285F4;
+}
+
+/* Call Color */
+.call-color {
+    color: #34A853;
+}
+
+/* YouTube Color */
+.youtube-color {
+    color: #FF0000;
+}
 @media (min-width: 1200px) {
   .col-xl {
     flex-basis: 0;
@@ -10054,7 +10074,7 @@ h3 {
 }
 
 .page-header {
-    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/carousel-1.jpg) center center no-repeat;
+    background: black;
     background-size: cover;
 }
 
@@ -10186,7 +10206,6 @@ h3 {
     text-align: center;
     background: #000000; /* Changed to black */
     color: white; /* Set text color to white */
-    box-shadow: 0 0 45px rgba(0, 0, 0, .06);
     transition: .5s;
     z-index: 2;
 }
@@ -10467,4 +10486,11 @@ h3 {
 
 .copyright a:hover {
     color: var(--primary) !important;
+}
+
+/* Instagram Gradient */
+.instagram-gradient {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
